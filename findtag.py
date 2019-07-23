@@ -51,6 +51,7 @@ def create_file(result_list, files, directory_to_save):
         for i in range(len(result_list)):
             save.write(f'{i}. {files[result_list[i]][0]} {files[result_list[i]][1]}\n')
     print('Операция завершена.')
+    return files
 
 
 def main() -> None:
